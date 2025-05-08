@@ -14,6 +14,7 @@ var rootCmd = &cobra.Command{
 func init() {
     rootCmd.AddCommand(cmd.USBCmd)
     rootCmd.AddCommand(cmd.SSDCmd)
+    rootCmd.AddCommand(cmd.BluetoothCmd)
 }
 
 func main() {
